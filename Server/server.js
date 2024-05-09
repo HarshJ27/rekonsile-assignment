@@ -72,9 +72,9 @@ app.post("/auth/signup", async (req, res, next) => {
   accessLogStream.write(logEntry);
 
   // Check if user already exists
-  const studentUser = await Users.findOne({ name });
+  const User = await Users.findOne({ name });
 
-  if (studentUser) {
+  if (User) {
     return res.status(409).json({ message: "User already exist!!!" });
   }
 
@@ -128,7 +128,7 @@ app.post("/auth/login", async (req, res, next) => {
   const accessToken = jwt.sign(
     { userId: user.id, name: user.name },
     process.env.ACCESS_TOKEN_SECRET,
-    { expiresIn: "15m" }
+    { expiresIn: "15min" }
   );
   const refreshToken = jwt.sign(
     { userId: user.id, name: user.name },
@@ -139,7 +139,7 @@ app.post("/auth/login", async (req, res, next) => {
   refreshTokens.push(refreshToken);
 
   // Return tokens
-  res.json({ accessToken, refreshToken });
+  res.status(201).json({ accessToken, refreshToken });
 });
 
 // Refresh token route
@@ -168,11 +168,11 @@ app.post("/auth/refresh", (req, res, next) => {
   const accessToken = jwt.sign(
     { userId: decodedToken.userId, name: decodedToken.name },
     process.env.ACCESS_TOKEN_SECRET,
-    { expiresIn: "15m" }
+    { expiresIn: "15min" }
   );
 
   // Return new access token
-  res.json({ accessToken });
+  res.status(201).json({ accessToken });
   next()
 });
 
@@ -182,7 +182,7 @@ app.get("/auth/protected", AuthenticateToken, (req, res, next) => {
     const logEntry = `${now}: ${req.method} ${req.url} ${req.user ? JSON.stringify(req.user) : 'No request body'}\n`;
     console.log(logEntry);
     accessLogStream.write(logEntry);
-  res.json({
+  res.status(201).json({
     message: "Protected route accessed successfully",
     user: req.user,
   });
@@ -197,7 +197,7 @@ app.get("/auth/admin", AuthenticateToken, (req, res, next) => {
     const logEntry = `${now}: ${req.method} ${req.url} ${req.user ? JSON.stringify(req.user) : 'No request body'}\n`;
     console.log(logEntry);
     accessLogStream.write(logEntry);
-  res.json({ message: "Admin route accessed successfully", user: req.user });
+  res.status(201).json({ message: "Admin route accessed successfully", user: req.user });
   next();
 });
 
