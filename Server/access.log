@@ -1,0 +1,67 @@
+2024-05-09T10:16:27.453Z: GET / undefined
+2024-05-09T10:16:27.583Z: GET /favicon.ico undefined
+2024-05-09T10:30:12.634Z: POST /auth/signup undefined
+2024-05-09T10:43:29.217Z: POST /auth/login undefined
+2024-05-09T11:09:47.076Z: POST /auth/login undefined
+2024-05-09T11:09:57.507Z: POST /auth/login undefined
+2024-05-09T11:21:55.856Z: POST /auth/login undefined
+2024-05-09T11:22:54.555Z: GET /protected undefined
+2024-05-09T11:24:32.557Z: GET /protected undefined
+2024-05-09T11:25:53.401Z: GET /admin undefined
+2024-05-09T11:26:17.917Z: GET /admin undefined
+2024-05-09T11:39:08.516Z: GET /admin undefined
+2024-05-09T12:15:03.007Z: GET /auth/admin undefined
+2024-05-09T12:15:14.309Z: GET /auth/login undefined
+2024-05-09T12:15:23.862Z: POST /auth/login undefined
+2024-05-09T12:15:49.353Z: GET /auth/admin undefined
+2024-05-09T12:29:13.650Z: GET /auth/admin undefined
+2024-05-09T16:03:48.870Z: GET /auth/admin undefined
+2024-05-09T16:05:39.204Z: POST /auth/login undefined
+2024-05-09T16:06:04.617Z: GET /auth/admin undefined
+2024-05-09T16:09:09.932Z: POST /auth/login undefined
+2024-05-09T16:10:38.015Z: GET /auth/admin undefined
+2024-05-09T16:13:06.928Z: GET /auth/admin No request body
+2024-05-09T16:14:36.917Z: GET /auth/admin No request body
+2024-05-09T16:15:03.105Z: GET /auth/admin No request body
+2024-05-09T16:22:06.634Z: GET /auth/admin No request body
+2024-05-09T16:22:06.656Z: GET /auth/admin {}
+2024-05-09T16:22:37.735Z: GET /auth/admin No request body
+2024-05-09T16:22:37.744Z: GET /auth/admin {}
+2024-05-09T16:24:26.333Z: GET /auth/admin No request body
+2024-05-09T16:24:33.453Z: POST /auth/login No request body
+2024-05-09T16:24:46.135Z: GET /auth/admin No request body
+2024-05-09T16:24:46.141Z: GET /auth/admin {}
+2024-05-09T16:28:31.487Z: GET /auth/admin No request body
+2024-05-09T16:28:31.515Z: GET /auth/admin {}
+2024-05-09T16:29:05.887Z: POST /auth/login No request body
+2024-05-09T16:29:06.124Z: POST /auth/login No request body
+2024-05-09T16:32:27.621Z: POST /auth/login No request body
+2024-05-09T16:32:27.875Z: POST /auth/login No request body
+2024-05-09T16:36:20.986Z: POST /auth/login No request body
+2024-05-09T16:36:21.027Z: POST /auth/login No request body
+2024-05-09T16:37:16.097Z: POST /auth/login No request body
+2024-05-09T16:37:16.140Z: POST /auth/login No request body
+2024-05-09T16:37:58.507Z: POST /auth/login No request body
+2024-05-09T16:37:58.542Z: POST /auth/login {"name":"UserOne","password":"user1234"}
+2024-05-09T16:44:12.047Z: GET /auth/admin No request body
+2024-05-09T16:44:12.060Z: GET /auth/admin {}
+2024-05-09T16:45:42.815Z: GET /auth/admin No request body
+2024-05-09T16:45:42.840Z: GET /auth/admin {}
+2024-05-09T16:47:38.836Z: GET /auth/admin No request body
+2024-05-09T16:47:38.853Z: GET /auth/admin {"userId":"663ca5b41356f628ab4681a5","name":"UserOne","iat":1715272679,"exp":1715273579}
+2024-05-09T16:50:50.883Z: GET /auth/admin No request body
+2024-05-09T16:50:50.887Z: GET /auth/admin {"userId":"663ca5b41356f628ab4681a5","name":"UserOne","iat":1715272679,"exp":1715273579}
+2024-05-09T16:53:18.124Z: POST /auth/login No request body
+2024-05-09T16:53:18.205Z: POST /auth/login {"name":"UserOne","password":"user1234"}
+2024-05-09T16:53:41.469Z: GET /auth/protected No request body
+2024-05-09T16:53:41.473Z: GET /auth/protected {}
+2024-05-09T16:54:05.301Z: GET /auth/protected No request body
+2024-05-09T16:54:05.309Z: GET /auth/protected {"userId":"663ca5b41356f628ab4681a5","name":"UserOne","iat":1715273598,"exp":1715274498}
+2024-05-09T16:58:47.711Z: POST /auth/signup No request body
+2024-05-09T16:58:47.769Z: POST /auth/signup {"name":"UserTwo","password":"user1234"}
+2024-05-09T17:00:12.306Z: POST /auth/login No request body
+2024-05-09T17:00:12.347Z: POST /auth/login {"name":"UserThree","password":"user1234"}
+2024-05-09T17:04:51.292Z: POST /auth/login No request body
+2024-05-09T17:04:51.351Z: POST /auth/login {"name":"UserThree","password":"user1234"}
+2024-05-09T17:05:07.078Z: POST /auth/signup No request body
+2024-05-09T17:05:07.081Z: POST /auth/signup {"name":"UserThree","password":"user1234"}
