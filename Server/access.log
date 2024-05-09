@@ -95,3 +95,37 @@
 2024-05-09T21:02:44.664Z: POST /auth/refresh No request body
 2024-05-09T21:02:44.668Z: GET /auth/admin No request body
 2024-05-09T21:02:44.672Z: GET /auth/admin {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288564,"exp":1715289464}
+2024-05-09T21:06:28.315Z: GET /auth/protected No request body
+2024-05-09T21:06:28.339Z: GET /auth/protected {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288564,"exp":1715289464}
+2024-05-09T21:06:28.347Z: GET /auth/protected No request body
+2024-05-09T21:06:28.350Z: GET /auth/protected {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288564,"exp":1715289464}
+2024-05-09T21:06:28.352Z: POST /auth/refresh No request body
+2024-05-09T21:06:28.379Z: POST /auth/refresh No request body
+2024-05-09T21:06:28.385Z: GET /auth/protected No request body
+2024-05-09T21:06:28.387Z: GET /auth/protected {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288564,"exp":1715289464}
+2024-05-09T21:07:11.656Z: POST /auth/login No request body
+2024-05-09T21:07:11.658Z: POST /auth/login {"name":"UserFour","password":"user1234"}
+2024-05-09T21:07:11.818Z: GET /auth/admin No request body
+2024-05-09T21:07:11.825Z: GET /auth/admin {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288831,"exp":1715289731}
+2024-05-09T21:07:11.830Z: GET /auth/admin No request body
+2024-05-09T21:07:11.833Z: GET /auth/admin {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288831,"exp":1715289731}
+2024-05-09T21:07:11.839Z: GET /auth/admin No request body
+2024-05-09T21:07:11.841Z: GET /auth/admin {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288831,"exp":1715289731}
+2024-05-09T21:07:11.843Z: POST /auth/refresh No request body
+2024-05-09T21:07:11.844Z: POST /auth/refresh No request body
+2024-05-09T21:07:19.648Z: GET /auth/protected No request body
+2024-05-09T21:07:19.651Z: GET /auth/protected {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288831,"exp":1715289731}
+2024-05-09T21:07:19.658Z: GET /auth/protected No request body
+2024-05-09T21:07:19.661Z: GET /auth/protected {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288831,"exp":1715289731}
+2024-05-09T21:07:19.664Z: POST /auth/refresh No request body
+2024-05-09T21:07:19.666Z: POST /auth/refresh No request body
+2024-05-09T21:07:19.679Z: GET /auth/protected No request body
+2024-05-09T21:07:19.683Z: GET /auth/protected {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288831,"exp":1715289731}
+2024-05-09T21:07:31.338Z: GET /auth/admin No request body
+2024-05-09T21:07:31.342Z: GET /auth/admin {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288839,"exp":1715289739}
+2024-05-09T21:07:31.346Z: GET /auth/admin No request body
+2024-05-09T21:07:31.350Z: GET /auth/admin {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288839,"exp":1715289739}
+2024-05-09T21:07:31.352Z: POST /auth/refresh No request body
+2024-05-09T21:07:31.353Z: POST /auth/refresh No request body
+2024-05-09T21:07:31.356Z: GET /auth/admin No request body
+2024-05-09T21:07:31.361Z: GET /auth/admin {"userId":"663d230828aed54d06a8a88c","name":"UserFour","iat":1715288839,"exp":1715289739}
