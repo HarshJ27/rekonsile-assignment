@@ -14,7 +14,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path="/protected" element={<Protected />} />
           <Route path="/admin" element={<Admin />} />
-          <Route path='*' element={<Error/>}/>
+          <Route path='/*' element={<Error/>}/>
         </Routes>
       </BrowserRouter>
     </>
