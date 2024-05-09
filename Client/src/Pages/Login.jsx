@@ -14,7 +14,7 @@ const Login = () => {
     setError(null);
     // Perform login logic here
     try {
-        const response = await axios.post("http://localhost:3000/auth/login", {
+        const response = await axios.post("https://rekonsile-assignment-backend.onrender.com/auth/login", {
             name:username,
             password:password
         });

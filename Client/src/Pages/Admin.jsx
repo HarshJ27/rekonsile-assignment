@@ -48,7 +48,7 @@ const Admin = () => {
     const refreshToken = async () => {
       try {
         // Call your API to refresh the token using Axios
-        const response = await axios.post('http://localhost:3000/auth/refresh', {
+        const response = await axios.post('https://rekonsile-assignment-backend.onrender.com/auth/refresh', {
           refreshToken: localStorage.getItem('refreshToken') // Assuming you have a refreshToken stored
         });
 
@@ -69,7 +69,7 @@ const Admin = () => {
 
     const myInfo = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/auth/admin', {
+        const response = await axios.get('https://rekonsile-assignment-backend.onrender.com/auth/admin', {
           headers: {
             Authorization: `Bearer ${token}`,
           },

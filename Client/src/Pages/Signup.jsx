@@ -17,7 +17,7 @@ const Signup = () => {
     try {
 
         const response = await axios.post(
-            "http://localhost:3000/auth/signup",
+            "https://rekonsile-assignment-backend.onrender.com/auth/signup",
             {
                 name,
                 password,

@@ -32,7 +32,7 @@ const Protected = () => {
       try {
         // Call your API to refresh the token using Axios
         const response = await axios.post(
-          "http://localhost:3000/auth/refresh",
+          "https://rekonsile-assignment-backend.onrender.com/auth/refresh",
           {
             refreshToken: localStorage.getItem("refreshToken"), // Assuming you have a refreshToken stored
           }
@@ -55,7 +55,7 @@ const Protected = () => {
 
     const myInfo = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/auth/protected', {
+        const response = await axios.get('https://rekonsile-assignment-backend.onrender.com/auth/protected', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
